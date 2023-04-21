@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
+
+#cricketers {
+    width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+}
+
+.cric1 {
+}
+
+.cric-img1 {
+  width: 250px;
+  height: 300px;
+  /* align-items: auto; */
+  border: 3px dotted red;
+  margin-left: 50px;
+}
+
+table, th, td{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 10px 17px;
+}
+
+#footballers {
+}
