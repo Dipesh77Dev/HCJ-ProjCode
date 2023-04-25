@@ -5,7 +5,7 @@
 }
 
 #cricketers {
-    width: 100%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   /* flex-wrap: wrap; */
@@ -16,18 +16,42 @@
 }
 
 .cric-img1 {
-  width: 250px;
-  height: 300px;
+  width: 365px;
+  height: 400px;
   /* align-items: auto; */
-  border: 3px dotted red;
-  margin-left: 50px;
+  border: 3px groove orange;
+  margin-left: 110px;
 }
 
-table, th, td{
-    border: 3px solid black;
-    border-collapse: collapse;
-    text-align: center;
-    margin: 10px 17px;
+table,
+th,
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  margin-left: 190px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+/* .cric-link:unvisited{} <=> we can use a:link */
+.cric-link:link{
+  text-decoration: none;
+  color: darkorchid;
+}
+
+/* .cric-link : visited{} - Not allowed */
+.cric-link:visited{
+  color: darkorange;
+}
+
+.cric-link:hover{
+  color: darkcyan;
+}
+
+.cric-link:active{
+  color: darkgreen;
 }
 
 #footballers {
