@@ -1,0 +1,107 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* 
+.img1{
+    background-image: url(images/image1.png);
+    min-height: 100%;
+    position: relative;  -- to control position & for fixed image 
+    background-position: center; -- image in center position 
+    background-size: cover; --  image should be cover in that position 
+    background-repeat: no-repeat; -- when we increased width the image will repeat itself so to avoid we use no-repeat
+} 
+*/
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 1.8em; /* height of a line */
+  color: #666;
+}
+
+/* images */
+.img1 {
+  background-image: url(images/image1.png);
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url(images/image2.png);
+  min-height: 500px;
+}
+
+.img3 {
+  background-image: url(images/image3.png);
+  min-height: 600px;
+}
+
+.img1,
+.img2,
+.img3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* image were stuck so by this the images will be fixed and those elements are there in images will scroll. */
+}
+
+.text1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 5px; /* gap between the letters */
+  text-transform: uppercase;
+}
+
+.header1 {
+  background: #313534;
+  color: white;
+  padding: 20px;
+}
+
+.header2 {
+  background: #313534;
+  color: blue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* different section */
+/* 
+.section1{
+   padding: 50px 80px;
+   text-align: center;
+   background-color: #f4f4f4;
+   color: #666; 
+} 
+*/
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.section-medium {
+  background-color: #666;
+  color: lightskyblue;
+}
+
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
